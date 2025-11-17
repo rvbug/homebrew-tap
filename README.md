@@ -6,7 +6,7 @@ Personal Homebrew tap for my CLI tools and utilities. This tap contains packages
 Add this tap to your Homebrew:
 
 ```bash
-bashbrew tap rvbug/tap
+$> brew tap rvbug/tap
 ```
 
 # Available Packages
