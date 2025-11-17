@@ -1,7 +1,7 @@
 class Doc2quarto < Formula
   desc "CLI tool to convert Docusaurus markdown to Quarto format"
   homepage "https://github.com/rvbug/doc2quarto"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
