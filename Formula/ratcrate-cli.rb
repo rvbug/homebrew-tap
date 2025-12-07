@@ -1,4 +1,4 @@
-class RatcrateClil < Formula
+class RatcrateCli < Formula
   desc "Description of your new tool"
   homepage "https://github.com/rvbug/ratcrate-cli"
   version "0.1.0"
