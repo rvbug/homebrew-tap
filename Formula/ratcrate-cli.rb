@@ -1,7 +1,7 @@
 class RatcrateCli < Formula
   desc "Description of your new tool"
   homepage "https://github.com/rvbug/ratcrate-cli"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
