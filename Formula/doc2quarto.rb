@@ -7,10 +7,10 @@ class Doc2quarto < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/rvbug/doc2quarto/releases/download/v0.1.2/doc2quarto-macos-aarch64.tar.gz"
-      sha256 "065e3f1ee5a9de29b95ff83cfd2426d9c002179f062d450923f1a60f1177ae04"
+      sha256 "e0eed32b4c4e1aae14a916d8d2f3423d092b65640ab2a8f61d1954d15cf400c3"
     else
       url "https://github.com/rvbug/doc2quarto/releases/download/v0.1.2/doc2quarto-macos-x86_64.tar.gz"
-      sha256 "9da8898d7b11e2f2432a6f605e0600636b3b2ea7268a34a63881c66755915038"
+      sha256 "9740646b527f6a5f5d12f663d0a5e2b5261076699d552b24e4d53a3c993f126e"
     end
   end
 
@@ -20,7 +20,7 @@ class Doc2quarto < Formula
       sha256 "2f13e85184ba6448d4a505c665ca198d28a68d4f51735836a9b6a878e238fea1"
     else
       url "https://github.com/rvbug/doc2quarto/releases/download/v0.1.2/doc2quarto-linux-x86_64.tar.gz"
-      sha256 "89b728383bd8bee9f5afc7e0e19e4b6d23440ff0817a95580437436303fad4cd"
+      sha256 "fa5072f36a0daed78a6968377339265e6a0b0945536e9ccfec4ca683c24eeae5"
     end
   end
 
