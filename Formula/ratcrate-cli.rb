@@ -7,16 +7,16 @@ class RatcrateCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ratcrate/ratcrate-cli/releases/download/v0.1.0/ratcrate-cli-macos-aarch64.tar.gz"
-      sha256 "ab8a31bd54e4ef742362304ba12cc28a996d9c29c9b6e8012f3e25d0d4ec2c1c"
+      sha256 "ad8d8ab7259af436edd7adfe18730dcc69b988de22a6efc4dff65ff14af3f5c2"
     else
       url "https://github.com/ratcrate/ratcrate-cli/releases/download/v0.1.0/ratcrate-cli-macos-x86_64.tar.gz"
-      sha256 "81b5c872f1cb57d8adb7af94c5970f19bc0376c59d17be0a68196d13707b0469"
+      sha256 "449e590c82ba5f2e52c90eadd32ec8235ba112d732a371d809b206696073cc84"
     end
   end
 
   on_linux do
     url "https://github.com/ratcrate/ratcrate-cli/releases/download/v0.1.0/ratcrate-cli-linux-x86_64.tar.gz"
-    sha256 "b1f3eb16bd269b430efde8b6c1d46648bedf813b9cf853e52d932d8271642347"
+    sha256 "2677f83dd05abc6978f6bf5e6c70227cf179eac0fbdfda9f63b309bdea88067d"
   end
 
   def install
