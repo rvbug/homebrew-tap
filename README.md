@@ -1,3 +1,13 @@
+<p align="center">
+<img width="150" height="150" alt="homebrew-small" src="https://github.com/user-attachments/assets/f9eef3de-08d3-4d40-91d5-c7603940bb78" />
+</p>
+
+<p align="center">
+<br>
+<img src="https://img.shields.io/badge/mac%20os-000000?style=plastic&logo=macos&logoColor=F0F0F0">
+<img height=20px src="https://img.shields.io/badge/Ubuntu-E95420?style=plastic&logo=ubuntu&logoColor=white">
+</p>
+
 # Personal homebrew-tap
 
 Personal Homebrew tap for my CLI tools and utilities. This tap contains packages that I develop and maintain.
@@ -27,9 +37,28 @@ bashbrew install rvbug/tap/doc2quarto
 
 # Links:
 
-[GitHub Repository]()
-[Documentation]()
-[Report Issues]()
+[Doc2Quarto GitHub Repository](https://github.com/rvbug/doc2quarto/)
+[Doc2Quarto Documentation](https://qubitai.in/book/doc2quarto/)
+
+
+## **ratcrate-cli** 
+CLI tool to discover, search and list crates which uses Ratatui.
+
+# Install:
+```bash
+bashbrew install rvbug/tap/ratcrate-cli
+```
+
+# Features:
+
+* Discover, Search and displays crates which uses Ratatui  
+* Refresh latest crates and runs offline
+* Uses fzf 
+
+# Links:
+
+[ratcrate-cli GitHub Repository](https://github.com/ratcrate/ratcrate-cli/)
+[ratcrate-cli  Documentation](https://qubitai.in/book/rat-cli/)
 
 
 # More Tools Coming Soon!
@@ -40,26 +69,26 @@ Stay tuned for additional CLI tools and utilities.
 Installing a Package
 ```bash
 # Install directly (no need to tap first)
-brew install rvbug/tap/doc2quarto
+brew install rvbug/tap/<package name>
 ```
 
 ## Or tap first, then install
 ```bash
 brew tap rvbug/tap
-brew install rvbug/tap/doc2quarto
+brew install rvbug/tap/<package name>
 ```
 
 ## Updating Packages
 ```bash
 # Update Homebrew and upgrade packages
 brew update
-brew upgrade doc2quarto
+brew upgrade <package name>
 ```
 
 ## Uninstalling
 ```bash
 # Uninstall a package
-brew uninstall doc2quarto
+brew uninstall <package name>
 ```
 
 ## Remove this tap
