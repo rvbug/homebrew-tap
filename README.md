@@ -21,44 +21,44 @@ $> brew tap rvbug/tap
 
 # Available Packages
 
-## **doc2quarto** 
+## 1.  **doc2quarto** 
 Convert Docusaurus markdown files to Quarto format with ease.
 
-# Install:
+## Install:
 ```bash
 bashbrew install rvbug/tap/doc2quarto
 ```
-# Features:
+## Features:
 
 * Converts frontmatter (sidebar_position → order)
 * Transforms admonitions to Quarto callout blocks
 * Preserves directory structure
 * Copies image folders automatically
 
-# Links:
+## Links:
 
-[Doc2Quarto GitHub Repository](https://github.com/rvbug/doc2quarto/)
-[Doc2Quarto Documentation](https://qubitai.in/book/doc2quarto/)
+> [Doc2Quarto GitHub Repository](https://github.com/rvbug/doc2quarto/)  
+> [Doc2Quarto Documentation](https://qubitai.in/book/doc2quarto/)  
 
 
-## **ratcrate-cli** 
+# **ratcrate-cli** 
 CLI tool to discover, search and list crates which uses Ratatui.
 
-# Install:
+## Install:
 ```bash
 bashbrew install rvbug/tap/ratcrate-cli
 ```
 
-# Features:
+## Features:
 
 * Discover, Search and displays crates which uses Ratatui  
 * Refresh latest crates and runs offline
 * Uses fzf 
 
-# Links:
+## Links:
 
-[ratcrate-cli GitHub Repository](https://github.com/ratcrate/ratcrate-cli/)
-[ratcrate-cli  Documentation](https://qubitai.in/book/rat-cli/)
+[ratcrate-cli GitHub Repository](https://github.com/ratcrate/ratcrate-cli/)  
+[ratcrate-cli  Documentation](https://qubitai.in/book/rat-cli/)  
 
 
 # More Tools Coming Soon!
